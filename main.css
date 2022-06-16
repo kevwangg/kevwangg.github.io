@@ -40,9 +40,10 @@ h1 {
     
 }
 
-
+li,
 p {
     font-family: 'Comfortaa', cursive;
+    color: #243687;
 
 }
 .p-top {
@@ -72,4 +73,13 @@ hr {
 .container {
     margin-left: 0;
     max-width: 85%;
+}
+
+.container-cent {
+    text-align: center;
+}
+
+ul.list-align {
+    display: inline-block;
+    text-align: left;
 }
