@@ -76,10 +76,27 @@ hr {
 }
 
 .container-cent {
-    text-align: center;
+ 
+    width: 50%;
+    transform: translate(55%, 0);
+    margin: 0, auto;
+
 }
 
-ul.list-align {
-    display: inline-block;
+ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    list-style-position: inside;
+    padding-left: 20%
+  }
+  
+  ul li {
+ 
+    width: auto;
     text-align: left;
-}
+  }
+
+  .shift-left {
+    transform: translate(-3%, 0)
+  }
