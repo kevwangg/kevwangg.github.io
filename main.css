@@ -27,6 +27,7 @@ body {
     justify-content: start;
 }
 
+
 h2 {
     padding-right: 50px;
     padding-top: 50px;
@@ -40,6 +41,8 @@ h1 {
     
 }
 
+
+h3,
 li,
 p {
     font-family: 'Comfortaa', cursive;
@@ -99,4 +102,10 @@ ul {
 
   .shift-left {
     transform: translate(-3%, 0)
+  }
+
+  .icon-fix {
+    font-family: 'Comfortaa', cursive;
+    color: #243687;
+    padding-right: 1%;
   }
