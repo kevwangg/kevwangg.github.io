@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #CBE8F8;
+}
+.navbar {
+    background: #65869F;
+    box-shadow: 0 12px 20px 0 rgba(159,188,211,.5);
+}
+.navbar-nav {
+    margin-left: 1em;
+}
+.nav-link,
+.navbar-brand {
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+.nav-link {
+    margin-right: 1em !important;
+
+} 
+.nav-link:hover {
+    color: #4D6375;
+}
+.navbar-collapse {
+    justify-content: start;
+}
+
+
+h2 {
+    padding-right: 50px;
+    padding-top: 50px;
+    font-family: 'Comfortaa', cursive;
+    color: #243687;
+}
+h1 {
+    padding-top: 50px;
+    font-family: 'Comfortaa', cursive;
+    color: #243687;
+    
+}
+
+
+h3,
+li,
+p {
+    font-family: 'Comfortaa', cursive;
+    color: #243687;
+
+}
+.p-top {
+    margin-bottom: -2px
+}
+.one-test {
+    color: #243687;
+}
+
+.description {
+	/*left: 50%;
+	position: absolute; 
+	top: 10%;
+	transform: translate(-50%, -10%); */
+    
+	text-align: center;
+}
+
+hr {
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    border-top: 3px solid rgba(36, 54, 135, 1);
+
+
+  }
+ 
+.container {
+    margin-left: 0;
+    max-width: 85%;
+}
+
+.container-cent {
+ 
+    width: 50%;
+    transform: translate(55%, 0);
+    margin: 0, auto;
+
+}
+
+ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    list-style-position: inside;
+    padding-left: 20%
+  }
+  
+  ul li {
+ 
+    width: auto;
+    text-align: left;
+  }
+
+  .shift-left {
+    transform: translate(-3%, 0)
+  }
+
+  .icon-fix {
+    font-family: 'Comfortaa', cursive;
+    color: #243687;
+    padding-right: 1%;
+  }
